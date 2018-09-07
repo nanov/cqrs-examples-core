@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "test.js"
+		"test": "test.js",
+		"dev": "node index.js"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
