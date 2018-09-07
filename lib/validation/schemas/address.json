@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$async": true,
+  "title": "address",
+  "type": "object",
+  "properties": {
+		"streetAddress": {
+			"type": "string"
+		},
+    "countryCode": {
+      "title": "ISO 3166-1 Alpha-2 Country code",
+      "description": "A valid 2-digit ISO country code (ISO 3166-1 alpha-2), or, an array of valid ISO codes.",
+			"type": "string",
+			"format": "ISO-3166-2"
+		}
+	}
+}
